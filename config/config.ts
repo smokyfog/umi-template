@@ -16,6 +16,9 @@ export default defineConfig({
 
   routes, // 路由配置
 
+  // 启用 mfsu 后，热启动得到 **10 倍** 提升；热更新提升 **50%**  以上！
+  mfsu: {},
+
   // 定义全局变量
   define: {
     'process.env.ENV': 'dev',
