@@ -1,12 +1,10 @@
 import styles from './index.less';
-import { history } from 'umi'
+import { history } from 'umi';
 
 export default function IndexPage() {
-
   const handleClick = () => {
-    history.push('/page2')
-  }
-
+    history.push('/page2');
+  };
   return (
     <div>
       <h1 className={styles.title}>Page O1</h1>
