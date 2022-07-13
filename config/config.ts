@@ -15,6 +15,7 @@ export default defineConfig({
   // },
 
   routes, // 路由配置
+  ,
 
   // 定义全局变量
   define: {
